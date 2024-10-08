@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body { 
+    background-image: url(Asset/Img/Fondo\ digimon\ 2.0.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.logoimg {
+    width: 400px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.navar { 
+    float: right;
+    padding-top: 50px;
+    padding-right: 400px;
+    font-size: 20px;
+}
+
+h1{ 
+    font-family: "Lilita One", sans-serif;
+    color: antiquewhite;
+}
+
+h2 { 
+    font-family: "Permanent Marker", cursive;
+    color: black;
+}
+
+a {
+    color: aliceblue;
+    font-family: "Lilita One", sans-serif;
+    padding-right: 20px;
+      
+}
+
+.section1 {
+    padding: 30px 30px 30px 30px;
+    border: 2px solid black;
+    margin: 30px 100px 100px 100px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+} 
+
+.section1 .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section1 p {
+    color: black;
+    font-family: "Lilita One", sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    width: 50%; 
+    margin-right: 20px;
+}
+
+.section1 .image {
+    width: 25%; 
+    max-width: 50%; 
+    height: auto;
+    border-radius: 10px;
+    margin-right: 70px;
+}

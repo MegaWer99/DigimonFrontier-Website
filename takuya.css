@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body { 
+    background-image: url(Asset/Img/Fondo\ digimon\ 2.0.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logoimg {
+    width: 400px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.navar { 
+    float: right;
+    padding-top: 50px;
+    padding-right: 400px;
+    font-size: 20px;
+}
+
+a {
+    color: aliceblue;
+    font-family: "Lilita One", sans-serif;
+    padding-right: 20px;
+      
+}
+
+h1{ 
+    font-family: "Lilita One", sans-serif;
+    color: antiquewhite;
+}
+
+.section1 {
+    padding: 50px 50px 50px 50px;
+}
+
+.carousel {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .carousel img {
+    width: 400px;
+    height: 500px;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
