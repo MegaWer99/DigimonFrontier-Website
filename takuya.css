@@ -9,6 +9,10 @@ body {
     background-size: cover;
 }
 
+p {
+  font-family: "Lilita One", sans-serif;
+}
+
 .logoimg {
     width: 400px;
     height: 200px;
@@ -29,13 +33,22 @@ a {
       
 }
 
-h1{ 
+h1,h3{ 
     font-family: "Lilita One", sans-serif;
     color: antiquewhite;
 }
 
+
 .section1 {
     padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.parrafo {
+    margin-left: 20px;
+    font-size: 17px;
 }
 
 .carousel {
@@ -45,6 +58,7 @@ h1{
     overflow: hidden;
     border: 1px solid #ddd;
     border-radius: 8px;
+    margin-right: 40px;
   }
   
   .carousel-inner {
@@ -85,7 +99,7 @@ h1{
     cursor: pointer;
     z-index: 100;
   }
-  
+
   .prev {
     left: 10px;
   }
