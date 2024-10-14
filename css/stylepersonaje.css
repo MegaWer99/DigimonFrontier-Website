@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 body { 
-    background-image: url(Asset/Img/Fondo\ digimon\ 2.0.jpg);
+    background-image: url(../Asset/Img/Fondo\ digimon\ 2.0.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
@@ -36,6 +36,12 @@ h1{
 
 .section1 {
     padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+  padding-right: 20px;
 }
 
 .card {
@@ -45,9 +51,24 @@ h1{
     overflow: hidden;
     transition: transform 0.3s ease;
     background-color: #6e694f;
+    
+  }
+
+  .card1 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: #1b3ab1;
+    
   }
   
   .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card1:hover {
     transform: scale(1.05);
   }
   
@@ -62,10 +83,16 @@ h1{
   
   .card-title {
     font-family: "Permanent Marker", cursive;
-    
     font-size: 1.5rem;
     margin-bottom: 10px;
     color: #8c2d2d;
+  }
+
+  .card-title1 {
+    font-family: "Permanent Marker", cursive;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fffe70;
   }
   
   .card-text {
@@ -84,8 +111,21 @@ h1{
     border-radius: 4px;
     transition: background-color 0.3s ease;
   }
+
+  .card-button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6e694f;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
   
   .card-button:hover {
     background-color: #e68900;
   }
   
+  .card-button1:hover {
+    background-color: #182144;
+  }

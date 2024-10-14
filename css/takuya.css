@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 body { 
-    background-image: url(Asset/Img/Fondo\ digimon\ 2.0.jpg);
+    background-image: url(../Asset/Img/Fondo\ digimon\ 2.0.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
@@ -35,7 +35,7 @@ a {
 
 h1,h3{ 
     font-family: "Lilita One", sans-serif;
-    color: antiquewhite;
+    color: #8c2d2d;
 }
 
 
@@ -48,6 +48,7 @@ h1,h3{
 
 .parrafo {
     margin-left: 20px;
+    margin-right: 20px;
     font-size: 17px;
 }
 
@@ -111,4 +112,11 @@ h1,h3{
   .carousel-control:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
+
+  .container {
+    background-color: antiquewhite;
+    border-radius: 5px;
+  }
+
+
   
